@@ -1,4 +1,4 @@
-r /*
+ /*
  * Copyright 2012-2019 the original author or authors.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -45,7 +45,7 @@ class ValidatorTests {
 
 		LocaleContextHolder.setLocale(Locale.ENGLISH);
 		Person person = new Person();
-		person.setFirstName("Enter your first name");
+		person.setFirstName(" ");
 		person.setLastName("smith");
 
 		Validator validator = createValidator();
